@@ -3,83 +3,210 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rooster-VC — While they're sleeping, you're shipping.</title>
+  <title>Rooster-VC — The early bird gets the seed.</title>
+  <meta name="description" content="You bring your egg. Rooster-VC hatches that idea into a fundable application: a pitch, a deck, a landing page, a demo script, a pitch video, and a submission. While they're sleeping, you're shipping.">
+  <meta property="og:title" content="Rooster-VC — The early bird gets the seed.">
+  <meta property="og:description" content="You bring your egg. Rooster-VC hatches that idea into a fundable application. While they're sleeping, you're shipping.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#110804">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23110804'/%3E%3Cpath fill='%23ff7a1a' d='M6 21a10 10 0 0 1 20 0z'/%3E%3Cpath stroke='%23ffd27a' stroke-width='1.6' stroke-linecap='round' d='M16 7v3M8.5 10.5l2 2M23.5 10.5l-2 2'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div class="logo">🐓 ROOSTER-VC</div>
-    <div class="tagline">While they're sleeping, you're shipping.</div>
+  <header class="site-header">
+    <a class="wordmark" href="#top">
+      <svg class="mark" viewBox="0 0 32 32" aria-hidden="true">
+        <path fill="currentColor" d="M6 21a10 10 0 0 1 20 0z"/>
+        <path stroke="currentColor" stroke-width="1.6" stroke-linecap="round" d="M16 7v3M8.5 10.5l2 2M23.5 10.5l-2 2"/>
+      </svg>
+      Rooster-VC
+    </a>
+    <p class="tagline">While they're sleeping, you're shipping.</p>
   </header>
 
-  <main>
-    <h1>The early bird gets the seed.</h1>
-
-    <p class="subhead">
-      The pre-idea founder's unfair advantage. Rooster-VC turns ambition
-      into an application that actually gets read — tuned to what
-      selectors reward.
-    </p>
-
-    <div class="cta-block">
-      <a href="#" class="download-btn" id="download">
-        ⬇ Download Rooster-VC
-      </a>
-      <p class="meta">v0.1.0 · macOS · Windows · Linux · 4.2 MB</p>
-    </div>
-
-    <div class="stats">
-      <div class="stat">
-        <div class="num">2,847</div>
-        <div class="label">founders awakened</div>
-      </div>
-      <div class="stat">
-        <div class="num">312</div>
-        <div class="label">batches applied</div>
-      </div>
-      <div class="stat">
-        <div class="num">$0</div>
-        <div class="label">raised by us</div>
-      </div>
-    </div>
-
-    <section class="features">
-      <h2>How it works</h2>
-      <div class="grid">
-        <div class="feature">
-          <div class="icon">🐣</div>
-          <h3>Crow</h3>
-          <p>Describe a vibe. Any vibe. That's the whole input.</p>
-        </div>
-        <div class="feature">
-          <div class="icon">🥚</div>
-          <h3>Hatch</h3>
-          <p>We generate startup options tuned to what selectors reward.</p>
-        </div>
-        <div class="feature">
-          <div class="icon">🪶</div>
-          <h3>Feather</h3>
-          <p>Sharpen the one that scratches the itch. Iterate freely.</p>
-        </div>
-        <div class="feature">
-          <div class="icon">🌅</div>
-          <h3>Apply</h3>
-          <p>Reformatted and submitted. Batch after batch after batch.</p>
-        </div>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="kicker">For founders waiting to hatch</p>
+        <h1>The early bird gets the <em>seed</em>.</h1>
+        <p class="lede">
+          You bring your egg. Rooster-VC hatches that idea into a fundable
+          application: a pitch, a deck, a landing page, a demo script, a pitch
+          video, and a submission. Rewritten for every startup program.
+          Deadline after deadline.
+        </p>
       </div>
     </section>
 
-    <section class="quote">
-      <p>"I didn't have an idea. Now I have a waitlist, a deck, and a
-      pitch video. Still no idea. But it looks real."</p>
-      <p class="attribution">— Anon., Tufts '26</p>
+    <section class="blurb" id="company" aria-labelledby="blurb-title">
+      <p class="section-index">The company</p>
+      <h2 id="blurb-title">The startup application is a genre.</h2>
+      <div class="blurb-body">
+        <p>
+          Accepted companies look more like each other than they look like
+          their markets. The application has a scorecard. The scorecard is
+          public, and it can be learned. Matching it is what decides who
+          gets in.
+        </p>
+        <p>
+          Rooster-VC reads the pattern and writes to it. You arrive with your
+          egg — a market, a complaint, the company you want to be. You get
+          back the materials that make that idea look fundable, rewritten for
+          whichever program is taking applications.
+        </p>
+        <p>
+          The egg is the input. The application is the product. Send it
+          before anyone else is awake.
+        </p>
+      </div>
+    </section>
+
+    <dl class="ledger" aria-label="Running totals">
+      <div>
+        <dt>Eggs laid</dt>
+        <dd data-stat="vibes">2,847</dd>
+      </div>
+      <div>
+        <dt>Applications sent</dt>
+        <dd data-stat="batches">312</dd>
+      </div>
+      <div>
+        <dt>Companies funded</dt>
+        <dd data-stat="artifacts">6</dd>
+      </div>
+    </dl>
+
+    <section class="artifacts" aria-labelledby="artifacts-title">
+      <div class="section-head">
+        <p class="section-index">What you get</p>
+        <h2 id="artifacts-title">What hatches from your egg</h2>
+      </div>
+      <ol class="artifact-list">
+        <li>
+          <h3>Pitch</h3>
+          <p>The sentence an investor can repeat without you in the room.</p>
+        </li>
+        <li>
+          <h3>Deck</h3>
+          <p>Twelve slides someone can pass along without a note.</p>
+        </li>
+        <li>
+          <h3>Landing page</h3>
+          <p>A waitlist that already looks like a company.</p>
+        </li>
+        <li>
+          <h3>Demo script</h3>
+          <p>What the product says in the two minutes you get.</p>
+        </li>
+        <li>
+          <h3>Pitch video</h3>
+          <p>Ninety seconds, shot like the money already came in.</p>
+        </li>
+        <li>
+          <h3>Submission</h3>
+          <p>The same company, rewritten for each program, turned in on time.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="method" aria-labelledby="method-title">
+      <div class="section-head">
+        <p class="section-index">How it works</p>
+        <h2 id="method-title">Egg in. Application filed.</h2>
+      </div>
+      <ol class="steps">
+        <li>
+          <h3>Bring your egg</h3>
+          <p>Tell us the idea in one sentence.</p>
+        </li>
+        <li>
+          <h3>We hatch it</h3>
+          <p>You get the pitch, the deck, the page, the script, the video, and the application.</p>
+        </li>
+        <li>
+          <h3>You choose</h3>
+          <p>Keep the lines that sound like your company. We cut the rest.</p>
+        </li>
+        <li>
+          <h3>We send it</h3>
+          <p>Rewritten for the program that's open, in before the deadline. Then the next one.</p>
+        </li>
+      </ol>
+    </section>
+
+    <figure class="quote">
+      <blockquote>
+        <p>"I brought an egg. Now I have a waitlist, a deck, and a pitch video."</p>
+      </blockquote>
+      <figcaption>-Ji Gong, founder</figcaption>
+    </figure>
+
+    <form class="release" id="release" aria-labelledby="release-title">
+      <p class="release-kicker" id="release-title">Build 0.1.0</p>
+      <p class="release-name">Rooster-VC</p>
+      <p class="release-note">Your egg in. A fundable application out.</p>
+
+      <fieldset>
+        <legend>Platform</legend>
+        <label class="platform">
+          <input type="radio" name="platform" value="macOS" checked>
+          <span class="platform-name">macOS</span>
+          <span class="platform-meta">Apple silicon &amp; Intel</span>
+        </label>
+        <label class="platform">
+          <input type="radio" name="platform" value="Windows">
+          <span class="platform-name">Windows</span>
+          <span class="platform-meta">10 and later</span>
+        </label>
+        <label class="platform">
+          <input type="radio" name="platform" value="Linux">
+          <span class="platform-name">Linux</span>
+          <span class="platform-meta">x64</span>
+        </label>
+      </fieldset>
+
+      <button type="submit" class="download-btn">Download Rooster-VC</button>
+    </form>
+
+    <section class="about" aria-labelledby="about-title">
+      <div class="about-copy">
+      <h2 id="about-title">About us</h2>
+      <div class="blurb-body">
+        <p>
+          We didn't start as founders. Nobody does. We started as two people
+          who kept ending up at the same dining hall at the same weird hour,
+          talking about nothing, and somewhere in there we realized we both
+          wanted the same thing and neither of us knew how to say it.
+        </p>
+        <p>So we said it.</p>
+        <p>
+          Now we're post-idea, pre-dropout, pre-revenue — and for the first
+          time in our lives, we're not waiting for permission.
+        </p>
+      </div>
+      </div>
+      <img class="about-cock" src="cock.png" alt="A rooster">
     </section>
   </main>
 
-  <footer>
-    <p>© 2025 Rooster-VC. All rights reserved. Most rights reserved.</p>
-    <p class="fine">Not affiliated with any actual roosters. Or any actual VCs.</p>
+  <footer class="site-footer">
+    <p>Rooster-VC</p>
+    <p>While they're sleeping, you're shipping.</p>
+    <p>© 2026</p>
   </footer>
+
+  <dialog class="paywall" id="paywall" aria-labelledby="paywall-title">
+    <div class="paywall-card">
+      <p class="release-kicker">The hatch fee</p>
+      <h2 id="paywall-title">Pay up. Then we believe you.</h2>
+      <img class="paywall-qr" src="venmo.jpg" alt="Venmo QR code">
+      <button type="button" class="download-btn" id="paid">I promise I paid. Take me to the download.</button>
+      <button type="button" class="paywall-close" id="paywall-close" aria-label="Close">×</button>
+    </div>
+  </dialog>
 
   <script src="script.js"></script>
 </body>
